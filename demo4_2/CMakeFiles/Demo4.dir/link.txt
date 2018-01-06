@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/Demo4.dir/main_src/main.cc.o  -o Demo4 -rdynamic 

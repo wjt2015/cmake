@@ -1,0 +1,1 @@
+/usr/bin/cc  -fPIC   -shared -Wl,-soname,libmath.so -o ../lib/libmath.so CMakeFiles/math.dir/math.c.o 

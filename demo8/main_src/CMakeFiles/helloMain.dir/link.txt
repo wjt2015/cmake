@@ -1,0 +1,1 @@
+/usr/bin/cc     CMakeFiles/helloMain.dir/main.c.o  -o ../bin/helloMain -rdynamic ../lib/libhello.so -Wl,-rpath,/home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo8/lib 

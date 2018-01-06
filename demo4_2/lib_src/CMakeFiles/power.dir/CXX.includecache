@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo4_2/include/power.h
+
+/home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo4_2/lib_src/power.cc
+../include/power.h
+/home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo4_2/include/power.h
+

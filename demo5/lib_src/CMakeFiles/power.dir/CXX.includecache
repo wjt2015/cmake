@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo5/include/cJSON.h
+
+/home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo5/include/power.h
+
+/home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo5/lib_src/cJSON.cc
+string.h
+-
+stdio.h
+-
+math.h
+-
+stdlib.h
+-
+float.h
+-
+limits.h
+-
+ctype.h
+-
+../include/cJSON.h
+/home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo5/include/cJSON.h
+
+/home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo5/lib_src/power.cc
+../include/power.h
+/home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo5/include/power.h
+

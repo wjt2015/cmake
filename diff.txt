@@ -1,0 +1,739 @@
+diff --recursive --ignore-blank-lines --ignore-all-space demo3/CMakeCache.txt demo3_2/CMakeCache.txt
+2c2
+< # For build in directory: /home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3
+---
+> # For build in directory: /home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3_2
+169c169
+< Demo3_BINARY_DIR:STATIC=/home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3
+---
+> Demo3_BINARY_DIR:STATIC=/home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3_2
+172c172
+< Demo3_SOURCE_DIR:STATIC=/home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3
+---
+> Demo3_SOURCE_DIR:STATIC=/home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3_2
+185c185
+< CMAKE_CACHEFILE_DIR:INTERNAL=/home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3
+---
+> CMAKE_CACHEFILE_DIR:INTERNAL=/home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3_2
+250c250
+< CMAKE_HOME_DIRECTORY:INTERNAL=/home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3
+---
+> CMAKE_HOME_DIRECTORY:INTERNAL=/home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3_2
+diff --recursive --ignore-blank-lines --ignore-all-space demo3/CMakeFiles/CMakeDirectoryInformation.cmake demo3_2/CMakeFiles/CMakeDirectoryInformation.cmake
+5,6c5,6
+< set(CMAKE_RELATIVE_PATH_TOP_SOURCE "/home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3")
+< set(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3")
+---
+> set(CMAKE_RELATIVE_PATH_TOP_SOURCE "/home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3_2")
+> set(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3_2")
+diff --recursive --ignore-blank-lines --ignore-all-space demo3/CMakeFiles/CMakeOutput.log demo3_2/CMakeFiles/CMakeOutput.log
+13c13
+< The C compiler identification is GNU, found in "/home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3/CMakeFiles/3.5.0-rc1/CompilerIdC/a.out"
+---
+> The C compiler identification is GNU, found in "/home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3_2/CMakeFiles/3.5.0-rc1/CompilerIdC/a.out"
+26c26
+< The CXX compiler identification is GNU, found in "/home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3/CMakeFiles/3.5.0-rc1/CompilerIdCXX/a.out"
+---
+> The CXX compiler identification is GNU, found in "/home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3_2/CMakeFiles/3.5.0-rc1/CompilerIdCXX/a.out"
+29c29
+< Change Dir: /home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3/CMakeFiles/CMakeTmp
+---
+> Change Dir: /home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3_2/CMakeFiles/CMakeTmp
+31,39c31,39
+< Run Build Command:"/usr/bin/make" "cmTC_2da3b/fast"
+< /usr/bin/make -f CMakeFiles/cmTC_2da3b.dir/build.make CMakeFiles/cmTC_2da3b.dir/build
+< make[1]: 正在进入目录 `/home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3/CMakeFiles/CMakeTmp'
+< Building C object CMakeFiles/cmTC_2da3b.dir/testCCompiler.c.o
+< /usr/bin/cc     -o CMakeFiles/cmTC_2da3b.dir/testCCompiler.c.o   -c /home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3/CMakeFiles/CMakeTmp/testCCompiler.c
+< Linking C executable cmTC_2da3b
+< /home/linux2014/WJT_2017/soft_install/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2da3b.dir/link.txt --verbose=1
+< /usr/bin/cc       CMakeFiles/cmTC_2da3b.dir/testCCompiler.c.o  -o cmTC_2da3b -rdynamic 
+< make[1]:正在离开目录 `/home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3/CMakeFiles/CMakeTmp'
+---
+> Run Build Command:"/usr/bin/make" "cmTC_29b66/fast"
+> /usr/bin/make -f CMakeFiles/cmTC_29b66.dir/build.make CMakeFiles/cmTC_29b66.dir/build
+> make[1]: 正在进入目录 `/home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3_2/CMakeFiles/CMakeTmp'
+> Building C object CMakeFiles/cmTC_29b66.dir/testCCompiler.c.o
+> /usr/bin/cc     -o CMakeFiles/cmTC_29b66.dir/testCCompiler.c.o   -c /home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3_2/CMakeFiles/CMakeTmp/testCCompiler.c
+> Linking C executable cmTC_29b66
+> /home/linux2014/WJT_2017/soft_install/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_29b66.dir/link.txt --verbose=1
+> /usr/bin/cc       CMakeFiles/cmTC_29b66.dir/testCCompiler.c.o  -o cmTC_29b66 -rdynamic 
+> make[1]:正在离开目录 `/home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3_2/CMakeFiles/CMakeTmp'
+43c43
+< Change Dir: /home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3/CMakeFiles/CMakeTmp
+---
+> Change Dir: /home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3_2/CMakeFiles/CMakeTmp
+45,52c45,52
+< Run Build Command:"/usr/bin/make" "cmTC_cf03a/fast"
+< /usr/bin/make -f CMakeFiles/cmTC_cf03a.dir/build.make CMakeFiles/cmTC_cf03a.dir/build
+< make[1]: 正在进入目录 `/home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3/CMakeFiles/CMakeTmp'
+< Building C object CMakeFiles/cmTC_cf03a.dir/CMakeCCompilerABI.c.o
+< /usr/bin/cc     -o CMakeFiles/cmTC_cf03a.dir/CMakeCCompilerABI.c.o   -c /home/linux2014/WJT_2017/soft_install/cmake/share/cmake-3.5/Modules/CMakeCCompilerABI.c
+< Linking C executable cmTC_cf03a
+< /home/linux2014/WJT_2017/soft_install/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cf03a.dir/link.txt --verbose=1
+< /usr/bin/cc      -v CMakeFiles/cmTC_cf03a.dir/CMakeCCompilerABI.c.o  -o cmTC_cf03a -rdynamic  
+---
+> Run Build Command:"/usr/bin/make" "cmTC_99e87/fast"
+> /usr/bin/make -f CMakeFiles/cmTC_99e87.dir/build.make CMakeFiles/cmTC_99e87.dir/build
+> make[1]: 正在进入目录 `/home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3_2/CMakeFiles/CMakeTmp'
+> Building C object CMakeFiles/cmTC_99e87.dir/CMakeCCompilerABI.c.o
+> /usr/bin/cc     -o CMakeFiles/cmTC_99e87.dir/CMakeCCompilerABI.c.o   -c /home/linux2014/WJT_2017/soft_install/cmake/share/cmake-3.5/Modules/CMakeCCompilerABI.c
+> Linking C executable cmTC_99e87
+> /home/linux2014/WJT_2017/soft_install/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_99e87.dir/link.txt --verbose=1
+> /usr/bin/cc      -v CMakeFiles/cmTC_99e87.dir/CMakeCCompilerABI.c.o  -o cmTC_99e87 -rdynamic  
+62,64c62,64
+< COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_cf03a' '-rdynamic' '-mtune=generic' '-march=x86-64'
+<  /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_cf03a /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTC_cf03a.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
+< make[1]:正在离开目录 `/home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3/CMakeFiles/CMakeTmp'
+---
+> COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_99e87' '-rdynamic' '-mtune=generic' '-march=x86-64'
+>  /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_99e87 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTC_99e87.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
+> make[1]:正在离开目录 `/home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3_2/CMakeFiles/CMakeTmp'
+69c69
+<   ignore line: [Change Dir: /home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3/CMakeFiles/CMakeTmp]
+---
+>   ignore line: [Change Dir: /home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3_2/CMakeFiles/CMakeTmp]
+71,78c71,78
+<   ignore line: [Run Build Command:"/usr/bin/make" "cmTC_cf03a/fast"]
+<   ignore line: [/usr/bin/make -f CMakeFiles/cmTC_cf03a.dir/build.make CMakeFiles/cmTC_cf03a.dir/build]
+<   ignore line: [make[1]: 正在进入目录 `/home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3/CMakeFiles/CMakeTmp']
+<   ignore line: [Building C object CMakeFiles/cmTC_cf03a.dir/CMakeCCompilerABI.c.o]
+<   ignore line: [/usr/bin/cc     -o CMakeFiles/cmTC_cf03a.dir/CMakeCCompilerABI.c.o   -c /home/linux2014/WJT_2017/soft_install/cmake/share/cmake-3.5/Modules/CMakeCCompilerABI.c]
+<   ignore line: [Linking C executable cmTC_cf03a]
+<   ignore line: [/home/linux2014/WJT_2017/soft_install/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cf03a.dir/link.txt --verbose=1]
+<   ignore line: [/usr/bin/cc      -v CMakeFiles/cmTC_cf03a.dir/CMakeCCompilerABI.c.o  -o cmTC_cf03a -rdynamic  ]
+---
+>   ignore line: [Run Build Command:"/usr/bin/make" "cmTC_99e87/fast"]
+>   ignore line: [/usr/bin/make -f CMakeFiles/cmTC_99e87.dir/build.make CMakeFiles/cmTC_99e87.dir/build]
+>   ignore line: [make[1]: 正在进入目录 `/home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3_2/CMakeFiles/CMakeTmp']
+>   ignore line: [Building C object CMakeFiles/cmTC_99e87.dir/CMakeCCompilerABI.c.o]
+>   ignore line: [/usr/bin/cc     -o CMakeFiles/cmTC_99e87.dir/CMakeCCompilerABI.c.o   -c /home/linux2014/WJT_2017/soft_install/cmake/share/cmake-3.5/Modules/CMakeCCompilerABI.c]
+>   ignore line: [Linking C executable cmTC_99e87]
+>   ignore line: [/home/linux2014/WJT_2017/soft_install/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_99e87.dir/link.txt --verbose=1]
+>   ignore line: [/usr/bin/cc      -v CMakeFiles/cmTC_99e87.dir/CMakeCCompilerABI.c.o  -o cmTC_99e87 -rdynamic  ]
+88,89c88,89
+<   ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_cf03a' '-rdynamic' '-mtune=generic' '-march=x86-64']
+<   link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_cf03a /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTC_cf03a.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o]
+---
+>   ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_99e87' '-rdynamic' '-mtune=generic' '-march=x86-64']
+>   link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_99e87 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTC_99e87.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o]
+103c103
+<     arg [cmTC_cf03a] ==> ignore
+---
+>     arg [cmTC_99e87] ==> ignore
+115c115
+<     arg [CMakeFiles/cmTC_cf03a.dir/CMakeCCompilerABI.c.o] ==> ignore
+---
+>     arg [CMakeFiles/cmTC_99e87.dir/CMakeCCompilerABI.c.o] ==> ignore
+147c147
+< Change Dir: /home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3/CMakeFiles/CMakeTmp
+---
+> Change Dir: /home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3_2/CMakeFiles/CMakeTmp
+149,157c149,157
+< Run Build Command:"/usr/bin/make" "cmTC_ea9e7/fast"
+< /usr/bin/make -f CMakeFiles/cmTC_ea9e7.dir/build.make CMakeFiles/cmTC_ea9e7.dir/build
+< make[1]: 正在进入目录 `/home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3/CMakeFiles/CMakeTmp'
+< Building C object CMakeFiles/cmTC_ea9e7.dir/feature_tests.c.o
+< /usr/bin/cc    -std=c11 -o CMakeFiles/cmTC_ea9e7.dir/feature_tests.c.o   -c /home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3/CMakeFiles/feature_tests.c
+< Linking C executable cmTC_ea9e7
+< /home/linux2014/WJT_2017/soft_install/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ea9e7.dir/link.txt --verbose=1
+< /usr/bin/cc       CMakeFiles/cmTC_ea9e7.dir/feature_tests.c.o  -o cmTC_ea9e7 -rdynamic 
+< make[1]:正在离开目录 `/home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3/CMakeFiles/CMakeTmp'
+---
+> Run Build Command:"/usr/bin/make" "cmTC_9d752/fast"
+> /usr/bin/make -f CMakeFiles/cmTC_9d752.dir/build.make CMakeFiles/cmTC_9d752.dir/build
+> make[1]: 正在进入目录 `/home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3_2/CMakeFiles/CMakeTmp'
+> Building C object CMakeFiles/cmTC_9d752.dir/feature_tests.c.o
+> /usr/bin/cc    -std=c11 -o CMakeFiles/cmTC_9d752.dir/feature_tests.c.o   -c /home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3_2/CMakeFiles/feature_tests.c
+> Linking C executable cmTC_9d752
+> /home/linux2014/WJT_2017/soft_install/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9d752.dir/link.txt --verbose=1
+> /usr/bin/cc       CMakeFiles/cmTC_9d752.dir/feature_tests.c.o  -o cmTC_9d752 -rdynamic 
+> make[1]:正在离开目录 `/home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3_2/CMakeFiles/CMakeTmp'
+167c167
+< Change Dir: /home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3/CMakeFiles/CMakeTmp
+---
+> Change Dir: /home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3_2/CMakeFiles/CMakeTmp
+169,177c169,177
+< Run Build Command:"/usr/bin/make" "cmTC_78319/fast"
+< /usr/bin/make -f CMakeFiles/cmTC_78319.dir/build.make CMakeFiles/cmTC_78319.dir/build
+< make[1]: 正在进入目录 `/home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3/CMakeFiles/CMakeTmp'
+< Building C object CMakeFiles/cmTC_78319.dir/feature_tests.c.o
+< /usr/bin/cc    -std=c99 -o CMakeFiles/cmTC_78319.dir/feature_tests.c.o   -c /home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3/CMakeFiles/feature_tests.c
+< Linking C executable cmTC_78319
+< /home/linux2014/WJT_2017/soft_install/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_78319.dir/link.txt --verbose=1
+< /usr/bin/cc       CMakeFiles/cmTC_78319.dir/feature_tests.c.o  -o cmTC_78319 -rdynamic 
+< make[1]:正在离开目录 `/home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3/CMakeFiles/CMakeTmp'
+---
+> Run Build Command:"/usr/bin/make" "cmTC_1e443/fast"
+> /usr/bin/make -f CMakeFiles/cmTC_1e443.dir/build.make CMakeFiles/cmTC_1e443.dir/build
+> make[1]: 正在进入目录 `/home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3_2/CMakeFiles/CMakeTmp'
+> Building C object CMakeFiles/cmTC_1e443.dir/feature_tests.c.o
+> /usr/bin/cc    -std=c99 -o CMakeFiles/cmTC_1e443.dir/feature_tests.c.o   -c /home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3_2/CMakeFiles/feature_tests.c
+> Linking C executable cmTC_1e443
+> /home/linux2014/WJT_2017/soft_install/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1e443.dir/link.txt --verbose=1
+> /usr/bin/cc       CMakeFiles/cmTC_1e443.dir/feature_tests.c.o  -o cmTC_1e443 -rdynamic 
+> make[1]:正在离开目录 `/home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3_2/CMakeFiles/CMakeTmp'
+187c187
+< Change Dir: /home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3/CMakeFiles/CMakeTmp
+---
+> Change Dir: /home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3_2/CMakeFiles/CMakeTmp
+189,197c189,197
+< Run Build Command:"/usr/bin/make" "cmTC_49c61/fast"
+< /usr/bin/make -f CMakeFiles/cmTC_49c61.dir/build.make CMakeFiles/cmTC_49c61.dir/build
+< make[1]: 正在进入目录 `/home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3/CMakeFiles/CMakeTmp'
+< Building C object CMakeFiles/cmTC_49c61.dir/feature_tests.c.o
+< /usr/bin/cc    -std=c90 -o CMakeFiles/cmTC_49c61.dir/feature_tests.c.o   -c /home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3/CMakeFiles/feature_tests.c
+< Linking C executable cmTC_49c61
+< /home/linux2014/WJT_2017/soft_install/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_49c61.dir/link.txt --verbose=1
+< /usr/bin/cc       CMakeFiles/cmTC_49c61.dir/feature_tests.c.o  -o cmTC_49c61 -rdynamic 
+< make[1]:正在离开目录 `/home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3/CMakeFiles/CMakeTmp'
+---
+> Run Build Command:"/usr/bin/make" "cmTC_b2e24/fast"
+> /usr/bin/make -f CMakeFiles/cmTC_b2e24.dir/build.make CMakeFiles/cmTC_b2e24.dir/build
+> make[1]: 正在进入目录 `/home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3_2/CMakeFiles/CMakeTmp'
+> Building C object CMakeFiles/cmTC_b2e24.dir/feature_tests.c.o
+> /usr/bin/cc    -std=c90 -o CMakeFiles/cmTC_b2e24.dir/feature_tests.c.o   -c /home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3_2/CMakeFiles/feature_tests.c
+> Linking C executable cmTC_b2e24
+> /home/linux2014/WJT_2017/soft_install/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b2e24.dir/link.txt --verbose=1
+> /usr/bin/cc       CMakeFiles/cmTC_b2e24.dir/feature_tests.c.o  -o cmTC_b2e24 -rdynamic 
+> make[1]:正在离开目录 `/home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3_2/CMakeFiles/CMakeTmp'
+205c205
+< Change Dir: /home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3/CMakeFiles/CMakeTmp
+---
+> Change Dir: /home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3_2/CMakeFiles/CMakeTmp
+207,215c207,215
+< Run Build Command:"/usr/bin/make" "cmTC_742f6/fast"
+< /usr/bin/make -f CMakeFiles/cmTC_742f6.dir/build.make CMakeFiles/cmTC_742f6.dir/build
+< make[1]: 正在进入目录 `/home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3/CMakeFiles/CMakeTmp'
+< Building CXX object CMakeFiles/cmTC_742f6.dir/testCXXCompiler.cxx.o
+< /usr/bin/c++      -o CMakeFiles/cmTC_742f6.dir/testCXXCompiler.cxx.o -c /home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+< Linking CXX executable cmTC_742f6
+< /home/linux2014/WJT_2017/soft_install/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_742f6.dir/link.txt --verbose=1
+< /usr/bin/c++        CMakeFiles/cmTC_742f6.dir/testCXXCompiler.cxx.o  -o cmTC_742f6 -rdynamic 
+< make[1]:正在离开目录 `/home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3/CMakeFiles/CMakeTmp'
+---
+> Run Build Command:"/usr/bin/make" "cmTC_57a5c/fast"
+> /usr/bin/make -f CMakeFiles/cmTC_57a5c.dir/build.make CMakeFiles/cmTC_57a5c.dir/build
+> make[1]: 正在进入目录 `/home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3_2/CMakeFiles/CMakeTmp'
+> Building CXX object CMakeFiles/cmTC_57a5c.dir/testCXXCompiler.cxx.o
+> /usr/bin/c++      -o CMakeFiles/cmTC_57a5c.dir/testCXXCompiler.cxx.o -c /home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3_2/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+> Linking CXX executable cmTC_57a5c
+> /home/linux2014/WJT_2017/soft_install/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_57a5c.dir/link.txt --verbose=1
+> /usr/bin/c++        CMakeFiles/cmTC_57a5c.dir/testCXXCompiler.cxx.o  -o cmTC_57a5c -rdynamic 
+> make[1]:正在离开目录 `/home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3_2/CMakeFiles/CMakeTmp'
+219c219
+< Change Dir: /home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3/CMakeFiles/CMakeTmp
+---
+> Change Dir: /home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3_2/CMakeFiles/CMakeTmp
+221,228c221,228
+< Run Build Command:"/usr/bin/make" "cmTC_2808d/fast"
+< /usr/bin/make -f CMakeFiles/cmTC_2808d.dir/build.make CMakeFiles/cmTC_2808d.dir/build
+< make[1]: 正在进入目录 `/home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3/CMakeFiles/CMakeTmp'
+< Building CXX object CMakeFiles/cmTC_2808d.dir/CMakeCXXCompilerABI.cpp.o
+< /usr/bin/c++      -o CMakeFiles/cmTC_2808d.dir/CMakeCXXCompilerABI.cpp.o -c /home/linux2014/WJT_2017/soft_install/cmake/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp
+< Linking CXX executable cmTC_2808d
+< /home/linux2014/WJT_2017/soft_install/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2808d.dir/link.txt --verbose=1
+< /usr/bin/c++       -v CMakeFiles/cmTC_2808d.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_2808d -rdynamic  
+---
+> Run Build Command:"/usr/bin/make" "cmTC_1cfee/fast"
+> /usr/bin/make -f CMakeFiles/cmTC_1cfee.dir/build.make CMakeFiles/cmTC_1cfee.dir/build
+> make[1]: 正在进入目录 `/home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3_2/CMakeFiles/CMakeTmp'
+> Building CXX object CMakeFiles/cmTC_1cfee.dir/CMakeCXXCompilerABI.cpp.o
+> /usr/bin/c++      -o CMakeFiles/cmTC_1cfee.dir/CMakeCXXCompilerABI.cpp.o -c /home/linux2014/WJT_2017/soft_install/cmake/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp
+> Linking CXX executable cmTC_1cfee
+> /home/linux2014/WJT_2017/soft_install/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1cfee.dir/link.txt --verbose=1
+> /usr/bin/c++       -v CMakeFiles/cmTC_1cfee.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_1cfee -rdynamic  
+238,240c238,240
+< COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2808d' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+<  /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_2808d /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTC_2808d.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
+< make[1]:正在离开目录 `/home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3/CMakeFiles/CMakeTmp'
+---
+> COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_1cfee' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+>  /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_1cfee /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTC_1cfee.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
+> make[1]:正在离开目录 `/home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3_2/CMakeFiles/CMakeTmp'
+245c245
+<   ignore line: [Change Dir: /home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3/CMakeFiles/CMakeTmp]
+---
+>   ignore line: [Change Dir: /home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3_2/CMakeFiles/CMakeTmp]
+247,254c247,254
+<   ignore line: [Run Build Command:"/usr/bin/make" "cmTC_2808d/fast"]
+<   ignore line: [/usr/bin/make -f CMakeFiles/cmTC_2808d.dir/build.make CMakeFiles/cmTC_2808d.dir/build]
+<   ignore line: [make[1]: 正在进入目录 `/home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3/CMakeFiles/CMakeTmp']
+<   ignore line: [Building CXX object CMakeFiles/cmTC_2808d.dir/CMakeCXXCompilerABI.cpp.o]
+<   ignore line: [/usr/bin/c++      -o CMakeFiles/cmTC_2808d.dir/CMakeCXXCompilerABI.cpp.o -c /home/linux2014/WJT_2017/soft_install/cmake/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp]
+<   ignore line: [Linking CXX executable cmTC_2808d]
+<   ignore line: [/home/linux2014/WJT_2017/soft_install/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2808d.dir/link.txt --verbose=1]
+<   ignore line: [/usr/bin/c++       -v CMakeFiles/cmTC_2808d.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_2808d -rdynamic  ]
+---
+>   ignore line: [Run Build Command:"/usr/bin/make" "cmTC_1cfee/fast"]
+>   ignore line: [/usr/bin/make -f CMakeFiles/cmTC_1cfee.dir/build.make CMakeFiles/cmTC_1cfee.dir/build]
+>   ignore line: [make[1]: 正在进入目录 `/home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3_2/CMakeFiles/CMakeTmp']
+>   ignore line: [Building CXX object CMakeFiles/cmTC_1cfee.dir/CMakeCXXCompilerABI.cpp.o]
+>   ignore line: [/usr/bin/c++      -o CMakeFiles/cmTC_1cfee.dir/CMakeCXXCompilerABI.cpp.o -c /home/linux2014/WJT_2017/soft_install/cmake/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp]
+>   ignore line: [Linking CXX executable cmTC_1cfee]
+>   ignore line: [/home/linux2014/WJT_2017/soft_install/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1cfee.dir/link.txt --verbose=1]
+>   ignore line: [/usr/bin/c++       -v CMakeFiles/cmTC_1cfee.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_1cfee -rdynamic  ]
+264,265c264,265
+<   ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2808d' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+<   link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_2808d /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTC_2808d.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o]
+---
+>   ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_1cfee' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+>   link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_1cfee /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTC_1cfee.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o]
+279c279
+<     arg [cmTC_2808d] ==> ignore
+---
+>     arg [cmTC_1cfee] ==> ignore
+291c291
+<     arg [CMakeFiles/cmTC_2808d.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+---
+>     arg [CMakeFiles/cmTC_1cfee.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+321c321
+< Change Dir: /home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3/CMakeFiles/CMakeTmp
+---
+> Change Dir: /home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3_2/CMakeFiles/CMakeTmp
+323,331c323,331
+< Run Build Command:"/usr/bin/make" "cmTC_289b6/fast"
+< /usr/bin/make -f CMakeFiles/cmTC_289b6.dir/build.make CMakeFiles/cmTC_289b6.dir/build
+< make[1]: 正在进入目录 `/home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3/CMakeFiles/CMakeTmp'
+< Building CXX object CMakeFiles/cmTC_289b6.dir/feature_tests.cxx.o
+< /usr/bin/c++     -std=c++1y -o CMakeFiles/cmTC_289b6.dir/feature_tests.cxx.o -c /home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3/CMakeFiles/feature_tests.cxx
+< Linking CXX executable cmTC_289b6
+< /home/linux2014/WJT_2017/soft_install/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_289b6.dir/link.txt --verbose=1
+< /usr/bin/c++        CMakeFiles/cmTC_289b6.dir/feature_tests.cxx.o  -o cmTC_289b6 -rdynamic 
+< make[1]:正在离开目录 `/home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3/CMakeFiles/CMakeTmp'
+---
+> Run Build Command:"/usr/bin/make" "cmTC_b7aa9/fast"
+> /usr/bin/make -f CMakeFiles/cmTC_b7aa9.dir/build.make CMakeFiles/cmTC_b7aa9.dir/build
+> make[1]: 正在进入目录 `/home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3_2/CMakeFiles/CMakeTmp'
+> Building CXX object CMakeFiles/cmTC_b7aa9.dir/feature_tests.cxx.o
+> /usr/bin/c++     -std=c++1y -o CMakeFiles/cmTC_b7aa9.dir/feature_tests.cxx.o -c /home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3_2/CMakeFiles/feature_tests.cxx
+> Linking CXX executable cmTC_b7aa9
+> /home/linux2014/WJT_2017/soft_install/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b7aa9.dir/link.txt --verbose=1
+> /usr/bin/c++        CMakeFiles/cmTC_b7aa9.dir/feature_tests.cxx.o  -o cmTC_b7aa9 -rdynamic 
+> make[1]:正在离开目录 `/home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3_2/CMakeFiles/CMakeTmp'
+394c394
+< Change Dir: /home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3/CMakeFiles/CMakeTmp
+---
+> Change Dir: /home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3_2/CMakeFiles/CMakeTmp
+396,404c396,404
+< Run Build Command:"/usr/bin/make" "cmTC_20345/fast"
+< /usr/bin/make -f CMakeFiles/cmTC_20345.dir/build.make CMakeFiles/cmTC_20345.dir/build
+< make[1]: 正在进入目录 `/home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3/CMakeFiles/CMakeTmp'
+< Building CXX object CMakeFiles/cmTC_20345.dir/feature_tests.cxx.o
+< /usr/bin/c++     -std=c++11 -o CMakeFiles/cmTC_20345.dir/feature_tests.cxx.o -c /home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3/CMakeFiles/feature_tests.cxx
+< Linking CXX executable cmTC_20345
+< /home/linux2014/WJT_2017/soft_install/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_20345.dir/link.txt --verbose=1
+< /usr/bin/c++        CMakeFiles/cmTC_20345.dir/feature_tests.cxx.o  -o cmTC_20345 -rdynamic 
+< make[1]:正在离开目录 `/home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3/CMakeFiles/CMakeTmp'
+---
+> Run Build Command:"/usr/bin/make" "cmTC_654eb/fast"
+> /usr/bin/make -f CMakeFiles/cmTC_654eb.dir/build.make CMakeFiles/cmTC_654eb.dir/build
+> make[1]: 正在进入目录 `/home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3_2/CMakeFiles/CMakeTmp'
+> Building CXX object CMakeFiles/cmTC_654eb.dir/feature_tests.cxx.o
+> /usr/bin/c++     -std=c++11 -o CMakeFiles/cmTC_654eb.dir/feature_tests.cxx.o -c /home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3_2/CMakeFiles/feature_tests.cxx
+> Linking CXX executable cmTC_654eb
+> /home/linux2014/WJT_2017/soft_install/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_654eb.dir/link.txt --verbose=1
+> /usr/bin/c++        CMakeFiles/cmTC_654eb.dir/feature_tests.cxx.o  -o cmTC_654eb -rdynamic 
+> make[1]:正在离开目录 `/home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3_2/CMakeFiles/CMakeTmp'
+467c467
+< Change Dir: /home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3/CMakeFiles/CMakeTmp
+---
+> Change Dir: /home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3_2/CMakeFiles/CMakeTmp
+469,477c469,477
+< Run Build Command:"/usr/bin/make" "cmTC_0de1b/fast"
+< /usr/bin/make -f CMakeFiles/cmTC_0de1b.dir/build.make CMakeFiles/cmTC_0de1b.dir/build
+< make[1]: 正在进入目录 `/home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3/CMakeFiles/CMakeTmp'
+< Building CXX object CMakeFiles/cmTC_0de1b.dir/feature_tests.cxx.o
+< /usr/bin/c++     -std=c++98 -o CMakeFiles/cmTC_0de1b.dir/feature_tests.cxx.o -c /home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3/CMakeFiles/feature_tests.cxx
+< Linking CXX executable cmTC_0de1b
+< /home/linux2014/WJT_2017/soft_install/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0de1b.dir/link.txt --verbose=1
+< /usr/bin/c++        CMakeFiles/cmTC_0de1b.dir/feature_tests.cxx.o  -o cmTC_0de1b -rdynamic 
+< make[1]:正在离开目录 `/home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3/CMakeFiles/CMakeTmp'
+---
+> Run Build Command:"/usr/bin/make" "cmTC_ded40/fast"
+> /usr/bin/make -f CMakeFiles/cmTC_ded40.dir/build.make CMakeFiles/cmTC_ded40.dir/build
+> make[1]: 正在进入目录 `/home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3_2/CMakeFiles/CMakeTmp'
+> Building CXX object CMakeFiles/cmTC_ded40.dir/feature_tests.cxx.o
+> /usr/bin/c++     -std=c++98 -o CMakeFiles/cmTC_ded40.dir/feature_tests.cxx.o -c /home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3_2/CMakeFiles/feature_tests.cxx
+> Linking CXX executable cmTC_ded40
+> /home/linux2014/WJT_2017/soft_install/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ded40.dir/link.txt --verbose=1
+> /usr/bin/c++        CMakeFiles/cmTC_ded40.dir/feature_tests.cxx.o  -o cmTC_ded40 -rdynamic 
+> make[1]:正在离开目录 `/home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3_2/CMakeFiles/CMakeTmp'
+diff --recursive --ignore-blank-lines --ignore-all-space demo3/CMakeFiles/Demo3.dir/build.make demo3_2/CMakeFiles/Demo3.dir/build.make
+46c46
+< CMAKE_SOURCE_DIR = /home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3
+---
+> CMAKE_SOURCE_DIR = /home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3_2
+49c49
+< CMAKE_BINARY_DIR = /home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3
+---
+> CMAKE_BINARY_DIR = /home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3_2
+60,63c60,63
+< CMakeFiles/Demo3.dir/main.cc.o: CMakeFiles/Demo3.dir/flags.make
+< CMakeFiles/Demo3.dir/main.cc.o: main.cc
+< 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Demo3.dir/main.cc.o"
+< 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Demo3.dir/main.cc.o -c /home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3/main.cc
+---
+> CMakeFiles/Demo3.dir/main_src/main.cc.o: CMakeFiles/Demo3.dir/flags.make
+> CMakeFiles/Demo3.dir/main_src/main.cc.o: main_src/main.cc
+> 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3_2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Demo3.dir/main_src/main.cc.o"
+> 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Demo3.dir/main_src/main.cc.o -c /home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3_2/main_src/main.cc
+65,67c65,67
+< CMakeFiles/Demo3.dir/main.cc.i: cmake_force
+< 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Demo3.dir/main.cc.i"
+< 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3/main.cc > CMakeFiles/Demo3.dir/main.cc.i
+---
+> CMakeFiles/Demo3.dir/main_src/main.cc.i: cmake_force
+> 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Demo3.dir/main_src/main.cc.i"
+> 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3_2/main_src/main.cc > CMakeFiles/Demo3.dir/main_src/main.cc.i
+69,71c69,71
+< CMakeFiles/Demo3.dir/main.cc.s: cmake_force
+< 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Demo3.dir/main.cc.s"
+< 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3/main.cc -o CMakeFiles/Demo3.dir/main.cc.s
+---
+> CMakeFiles/Demo3.dir/main_src/main.cc.s: cmake_force
+> 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Demo3.dir/main_src/main.cc.s"
+> 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3_2/main_src/main.cc -o CMakeFiles/Demo3.dir/main_src/main.cc.s
+73c73
+< CMakeFiles/Demo3.dir/main.cc.o.requires:
+---
+> CMakeFiles/Demo3.dir/main_src/main.cc.o.requires:
+75c75
+< .PHONY : CMakeFiles/Demo3.dir/main.cc.o.requires
+---
+> .PHONY : CMakeFiles/Demo3.dir/main_src/main.cc.o.requires
+77,79c77,79
+< CMakeFiles/Demo3.dir/main.cc.o.provides: CMakeFiles/Demo3.dir/main.cc.o.requires
+< 	$(MAKE) -f CMakeFiles/Demo3.dir/build.make CMakeFiles/Demo3.dir/main.cc.o.provides.build
+< .PHONY : CMakeFiles/Demo3.dir/main.cc.o.provides
+---
+> CMakeFiles/Demo3.dir/main_src/main.cc.o.provides: CMakeFiles/Demo3.dir/main_src/main.cc.o.requires
+> 	$(MAKE) -f CMakeFiles/Demo3.dir/build.make CMakeFiles/Demo3.dir/main_src/main.cc.o.provides.build
+> .PHONY : CMakeFiles/Demo3.dir/main_src/main.cc.o.provides
+81c81
+< CMakeFiles/Demo3.dir/main.cc.o.provides.build: CMakeFiles/Demo3.dir/main.cc.o
+---
+> CMakeFiles/Demo3.dir/main_src/main.cc.o.provides.build: CMakeFiles/Demo3.dir/main_src/main.cc.o
+86c86
+< "CMakeFiles/Demo3.dir/main.cc.o"
+---
+> "CMakeFiles/Demo3.dir/main_src/main.cc.o"
+91c91
+< Demo3: CMakeFiles/Demo3.dir/main.cc.o
+---
+> Demo3: CMakeFiles/Demo3.dir/main_src/main.cc.o
+93c93
+< Demo3: math/libpower.a
+---
+> Demo3: lib_src/libpower.a
+95c95
+< 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Demo3"
+---
+> 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3_2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Demo3"
+103c103
+< CMakeFiles/Demo3.dir/requires: CMakeFiles/Demo3.dir/main.cc.o.requires
+---
+> CMakeFiles/Demo3.dir/requires: CMakeFiles/Demo3.dir/main_src/main.cc.o.requires
+112c112
+< 	cd /home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3 /home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3 /home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3 /home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3 /home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3/CMakeFiles/Demo3.dir/DependInfo.cmake --color=$(COLOR)
+---
+> 	cd /home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3_2 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3_2 /home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3_2 /home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3_2 /home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3_2 /home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3_2/CMakeFiles/Demo3.dir/DependInfo.cmake --color=$(COLOR)
+diff --recursive --ignore-blank-lines --ignore-all-space demo3/CMakeFiles/Demo3.dir/cmake_clean.cmake demo3_2/CMakeFiles/Demo3.dir/cmake_clean.cmake
+2c2
+<   "CMakeFiles/Demo3.dir/main.cc.o"
+---
+>   "CMakeFiles/Demo3.dir/main_src/main.cc.o"
+diff --recursive --ignore-blank-lines --ignore-all-space demo3/CMakeFiles/Demo3.dir/CXX.includecache demo3_2/CMakeFiles/Demo3.dir/CXX.includecache
+9c9,11
+< /home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3/main.cc
+---
+> /home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3_2/include/power.h
+> 
+> /home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3_2/main_src/main.cc
+14,17c16,17
+< math/power.h
+< /home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3/math/power.h
+< 
+< /home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3/math/power.h
+---
+> ../include/power.h
+> /home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3_2/include/power.h
+diff --recursive --ignore-blank-lines --ignore-all-space demo3/CMakeFiles/Demo3.dir/DependInfo.cmake demo3_2/CMakeFiles/Demo3.dir/DependInfo.cmake
+7c7
+<   "/home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3/main.cc" "/home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3/CMakeFiles/Demo3.dir/main.cc.o"
+---
+>   "/home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3_2/main_src/main.cc" "/home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3_2/CMakeFiles/Demo3.dir/main_src/main.cc.o"
+17c17
+<   "/home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3/math/CMakeFiles/power.dir/DependInfo.cmake"
+---
+>   "/home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3_2/lib_src/CMakeFiles/power.dir/DependInfo.cmake"
+diff --recursive --ignore-blank-lines --ignore-all-space demo3/CMakeFiles/Demo3.dir/depend.internal demo3_2/CMakeFiles/Demo3.dir/depend.internal
+4,6c4,6
+< CMakeFiles/Demo3.dir/main.cc.o
+<  /home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3/main.cc
+<  /home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3/math/power.h
+---
+> CMakeFiles/Demo3.dir/main_src/main.cc.o
+>  /home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3_2/include/power.h
+>  /home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3_2/main_src/main.cc
+diff --recursive --ignore-blank-lines --ignore-all-space demo3/CMakeFiles/Demo3.dir/depend.make demo3_2/CMakeFiles/Demo3.dir/depend.make
+4,5c4,5
+< CMakeFiles/Demo3.dir/main.cc.o: main.cc
+< CMakeFiles/Demo3.dir/main.cc.o: math/power.h
+---
+> CMakeFiles/Demo3.dir/main_src/main.cc.o: include/power.h
+> CMakeFiles/Demo3.dir/main_src/main.cc.o: main_src/main.cc
+diff --recursive --ignore-blank-lines --ignore-all-space demo3/CMakeFiles/Demo3.dir/link.txt demo3_2/CMakeFiles/Demo3.dir/link.txt
+1c1
+< /usr/bin/c++      CMakeFiles/Demo3.dir/main.cc.o  -o Demo3 -rdynamic math/libpower.a 
+---
+> /usr/bin/c++      CMakeFiles/Demo3.dir/main_src/main.cc.o  -o Demo3 -rdynamic lib_src/libpower.a 
+只在 demo3/CMakeFiles/Demo3.dir 存在：main.cc.o
+只在 demo3_2/CMakeFiles/Demo3.dir 存在：main_src
+diff --recursive --ignore-blank-lines --ignore-all-space demo3/CMakeFiles/Makefile2 demo3_2/CMakeFiles/Makefile2
+57c57
+< CMAKE_SOURCE_DIR = /home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3
+---
+> CMAKE_SOURCE_DIR = /home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3_2
+60c60
+< CMAKE_BINARY_DIR = /home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3
+---
+> CMAKE_BINARY_DIR = /home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3_2
+66c66
+< CMakeFiles/Demo3.dir/all: math/CMakeFiles/power.dir/all
+---
+> CMakeFiles/Demo3.dir/all: lib_src/CMakeFiles/power.dir/all
+69c69
+< 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3/CMakeFiles --progress-num=1,2 "Built target Demo3"
+---
+> 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3_2/CMakeFiles --progress-num=1,2 "Built target Demo3"
+79c79
+< 	$(CMAKE_COMMAND) -E cmake_progress_start /home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3/CMakeFiles 4
+---
+> 	$(CMAKE_COMMAND) -E cmake_progress_start /home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3_2/CMakeFiles 4
+81c81
+< 	$(CMAKE_COMMAND) -E cmake_progress_start /home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3/CMakeFiles 0
+---
+> 	$(CMAKE_COMMAND) -E cmake_progress_start /home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3_2/CMakeFiles 0
+100c100
+< # Directory level rules for directory math
+---
+> # Directory level rules for directory lib_src
+103c103
+< math/all: math/CMakeFiles/power.dir/all
+---
+> lib_src/all: lib_src/CMakeFiles/power.dir/all
+105c105
+< .PHONY : math/all
+---
+> .PHONY : lib_src/all
+108c108
+< math/clean: math/CMakeFiles/power.dir/clean
+---
+> lib_src/clean: lib_src/CMakeFiles/power.dir/clean
+110c110
+< .PHONY : math/clean
+---
+> .PHONY : lib_src/clean
+113c113
+< math/preinstall:
+---
+> lib_src/preinstall:
+115c115
+< .PHONY : math/preinstall
+---
+> .PHONY : lib_src/preinstall
+118c118
+< # Target rules for target math/CMakeFiles/power.dir
+---
+> # Target rules for target lib_src/CMakeFiles/power.dir
+121,125c121,125
+< math/CMakeFiles/power.dir/all:
+< 	$(MAKE) -f math/CMakeFiles/power.dir/build.make math/CMakeFiles/power.dir/depend
+< 	$(MAKE) -f math/CMakeFiles/power.dir/build.make math/CMakeFiles/power.dir/build
+< 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3/CMakeFiles --progress-num=3,4 "Built target power"
+< .PHONY : math/CMakeFiles/power.dir/all
+---
+> lib_src/CMakeFiles/power.dir/all:
+> 	$(MAKE) -f lib_src/CMakeFiles/power.dir/build.make lib_src/CMakeFiles/power.dir/depend
+> 	$(MAKE) -f lib_src/CMakeFiles/power.dir/build.make lib_src/CMakeFiles/power.dir/build
+> 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3_2/CMakeFiles --progress-num=3,4 "Built target power"
+> .PHONY : lib_src/CMakeFiles/power.dir/all
+128c128
+< all: math/CMakeFiles/power.dir/all
+---
+> all: lib_src/CMakeFiles/power.dir/all
+133,137c133,137
+< math/CMakeFiles/power.dir/rule: cmake_check_build_system
+< 	$(CMAKE_COMMAND) -E cmake_progress_start /home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3/CMakeFiles 2
+< 	$(MAKE) -f CMakeFiles/Makefile2 math/CMakeFiles/power.dir/all
+< 	$(CMAKE_COMMAND) -E cmake_progress_start /home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3/CMakeFiles 0
+< .PHONY : math/CMakeFiles/power.dir/rule
+---
+> lib_src/CMakeFiles/power.dir/rule: cmake_check_build_system
+> 	$(CMAKE_COMMAND) -E cmake_progress_start /home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3_2/CMakeFiles 2
+> 	$(MAKE) -f CMakeFiles/Makefile2 lib_src/CMakeFiles/power.dir/all
+> 	$(CMAKE_COMMAND) -E cmake_progress_start /home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3_2/CMakeFiles 0
+> .PHONY : lib_src/CMakeFiles/power.dir/rule
+140c140
+< power: math/CMakeFiles/power.dir/rule
+---
+> power: lib_src/CMakeFiles/power.dir/rule
+145,147c145,147
+< math/CMakeFiles/power.dir/clean:
+< 	$(MAKE) -f math/CMakeFiles/power.dir/build.make math/CMakeFiles/power.dir/clean
+< .PHONY : math/CMakeFiles/power.dir/clean
+---
+> lib_src/CMakeFiles/power.dir/clean:
+> 	$(MAKE) -f lib_src/CMakeFiles/power.dir/build.make lib_src/CMakeFiles/power.dir/clean
+> .PHONY : lib_src/CMakeFiles/power.dir/clean
+150c150
+< clean: math/CMakeFiles/power.dir/clean
+---
+> clean: lib_src/CMakeFiles/power.dir/clean
+diff --recursive --ignore-blank-lines --ignore-all-space demo3/CMakeFiles/Makefile.cmake demo3_2/CMakeFiles/Makefile.cmake
+14c14
+<   "math/CMakeLists.txt"
+---
+>   "lib_src/CMakeLists.txt"
+41c41
+<   "math/CMakeFiles/CMakeDirectoryInformation.cmake"
+---
+>   "lib_src/CMakeFiles/CMakeDirectoryInformation.cmake"
+47c47
+<   "math/CMakeFiles/power.dir/DependInfo.cmake"
+---
+>   "lib_src/CMakeFiles/power.dir/DependInfo.cmake"
+diff --recursive --ignore-blank-lines --ignore-all-space demo3/CMakeFiles/TargetDirectories.txt demo3_2/CMakeFiles/TargetDirectories.txt
+1,6c1,6
+< /home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3/CMakeFiles/edit_cache.dir
+< /home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3/CMakeFiles/rebuild_cache.dir
+< /home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3/CMakeFiles/Demo3.dir
+< /home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3/math/CMakeFiles/edit_cache.dir
+< /home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3/math/CMakeFiles/rebuild_cache.dir
+< /home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3/math/CMakeFiles/power.dir
+---
+> /home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3_2/CMakeFiles/edit_cache.dir
+> /home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3_2/CMakeFiles/rebuild_cache.dir
+> /home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3_2/CMakeFiles/Demo3.dir
+> /home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3_2/lib_src/CMakeFiles/edit_cache.dir
+> /home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3_2/lib_src/CMakeFiles/rebuild_cache.dir
+> /home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3_2/lib_src/CMakeFiles/power.dir
+diff --recursive --ignore-blank-lines --ignore-all-space demo3/cmake_install.cmake demo3_2/cmake_install.cmake
+1c1
+< # Install script for directory: /home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3
+---
+> # Install script for directory: /home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3_2
+37c37
+<   include("/home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3/math/cmake_install.cmake")
+---
+>   include("/home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3_2/lib_src/cmake_install.cmake")
+49c49
+< file(WRITE "/home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3/${CMAKE_INSTALL_MANIFEST}"
+---
+> file(WRITE "/home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3_2/${CMAKE_INSTALL_MANIFEST}"
+diff --recursive --ignore-blank-lines --ignore-all-space demo3/CMakeLists.txt demo3_2/CMakeLists.txt
+0a1
+> #CMake对低版本号要求
+2a4
+> #项目信息
+5c7,9
+< aux_source_directory(. SRC_DIR)
+---
+> #查找当前目录下的所有源文件
+> #并将名称保存到SRC_DIR变量
+> aux_source_directory(main_src SRC_DIR)
+7c11,12
+< add_subdirectory(math)
+---
+> #添加子目录
+> add_subdirectory(lib_src)
+9c14,15
+< add_executable(Demo3 main.cc)
+---
+> #指定生成目标
+> add_executable(Demo3 ${SRC_DIR})
+10a17
+> #添加链接库
+只在 demo3_2 存在：include
+只在 demo3_2 存在：lib_src
+只在 demo3 存在：main.cc
+只在 demo3_2 存在：main_src
+diff --recursive --ignore-blank-lines --ignore-all-space demo3/Makefile demo3_2/Makefile
+51c51
+< CMAKE_SOURCE_DIR = /home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3
+---
+> CMAKE_SOURCE_DIR = /home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3_2
+54c54
+< CMAKE_BINARY_DIR = /home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3
+---
+> CMAKE_BINARY_DIR = /home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3_2
+83c83
+< 	$(CMAKE_COMMAND) -E cmake_progress_start /home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3/CMakeFiles /home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3/CMakeFiles/progress.marks
+---
+> 	$(CMAKE_COMMAND) -E cmake_progress_start /home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3_2/CMakeFiles /home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3_2/CMakeFiles/progress.marks
+85c85
+< 	$(CMAKE_COMMAND) -E cmake_progress_start /home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3/CMakeFiles 0
+---
+> 	$(CMAKE_COMMAND) -E cmake_progress_start /home/linux2014/WJT_2017/projects/CXX_Projects/cmake_test5/demo3_2/CMakeFiles 0
+136c136
+< 	$(MAKE) -f math/CMakeFiles/power.dir/build.make math/CMakeFiles/power.dir/build
+---
+> 	$(MAKE) -f lib_src/CMakeFiles/power.dir/build.make lib_src/CMakeFiles/power.dir/build
+139c139
+< main.o: main.cc.o
+---
+> main_src/main.o: main_src/main.cc.o
+141c141
+< .PHONY : main.o
+---
+> .PHONY : main_src/main.o
+144,146c144,146
+< main.cc.o:
+< 	$(MAKE) -f CMakeFiles/Demo3.dir/build.make CMakeFiles/Demo3.dir/main.cc.o
+< .PHONY : main.cc.o
+---
+> main_src/main.cc.o:
+> 	$(MAKE) -f CMakeFiles/Demo3.dir/build.make CMakeFiles/Demo3.dir/main_src/main.cc.o
+> .PHONY : main_src/main.cc.o
+148c148
+< main.i: main.cc.i
+---
+> main_src/main.i: main_src/main.cc.i
+150c150
+< .PHONY : main.i
+---
+> .PHONY : main_src/main.i
+153,155c153,155
+< main.cc.i:
+< 	$(MAKE) -f CMakeFiles/Demo3.dir/build.make CMakeFiles/Demo3.dir/main.cc.i
+< .PHONY : main.cc.i
+---
+> main_src/main.cc.i:
+> 	$(MAKE) -f CMakeFiles/Demo3.dir/build.make CMakeFiles/Demo3.dir/main_src/main.cc.i
+> .PHONY : main_src/main.cc.i
+157c157
+< main.s: main.cc.s
+---
+> main_src/main.s: main_src/main.cc.s
+159c159
+< .PHONY : main.s
+---
+> .PHONY : main_src/main.s
+162,164c162,164
+< main.cc.s:
+< 	$(MAKE) -f CMakeFiles/Demo3.dir/build.make CMakeFiles/Demo3.dir/main.cc.s
+< .PHONY : main.cc.s
+---
+> main_src/main.cc.s:
+> 	$(MAKE) -f CMakeFiles/Demo3.dir/build.make CMakeFiles/Demo3.dir/main_src/main.cc.s
+> .PHONY : main_src/main.cc.s
+176,178c176,178
+< 	@echo "... main.o"
+< 	@echo "... main.i"
+< 	@echo "... main.s"
+---
+> 	@echo "... main_src/main.o"
+> 	@echo "... main_src/main.i"
+> 	@echo "... main_src/main.s"
+只在 demo3 存在：math

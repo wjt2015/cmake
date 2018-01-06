@@ -1,0 +1,2 @@
+/usr/bin/ar qc libpower.a  CMakeFiles/power.dir/power.cc.o CMakeFiles/power.dir/cJSON.cc.o
+/usr/bin/ranlib libpower.a
